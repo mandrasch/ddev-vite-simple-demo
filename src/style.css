@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    color: darkslateblue;
+}
+
+#image-test {
+    width: 300px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/src/images/ddev.png');
+}
