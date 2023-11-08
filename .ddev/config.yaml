@@ -1,4 +1,4 @@
-name: ddev-vite-simple-demo
+name: test-vite
 type: php
 docroot: ""
 php_version: "8.1"
