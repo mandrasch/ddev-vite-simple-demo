@@ -1,8 +1,10 @@
 # ddev-vite-simple-demo
-Simple demo for blog article https://ddev.com/blog/working-with-vite-in-ddev/
 
-```
+Simple Vite demo for blog article https://ddev.com/blog/working-with-vite-in-ddev/
+
+```bash
 ddev start
+
 # install dependencies
 ddev npm install
 
