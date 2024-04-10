@@ -16,4 +16,4 @@ ddev npm run dev
 
 Then open https://test-vite.ddev.site/ in your browser (Or you can use `ddev launch` in another terminal)
 
-Vite dev server won't work with http://, https/ssl certificates must be properly setup (mkcert) beforehand. Check `ddev describe` and see DDEV installation docs regarding mkcert.
+Vite dev server won't work with http://, https/ssl certificates must be properly setup (mkcert) beforehand. Check `ddev describe` and see DDEV installation docs regarding mkcert (https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/).
