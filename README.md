@@ -18,6 +18,6 @@ Then open https://test-vite.ddev.site/ in your browser (Or you can use `ddev lau
 
 ## Troubleshooting
 
-Vite dev server won't work with http://, https/ssl certificates must be properly setup (mkcert) beforehand. Check `ddev describe` and see DDEV installation docs regarding mkcert (https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/). 
+Vite dev server won't work with http://. Https/ssl certificates must be properly setup (mkcert) beforehand and work on your laptop with DDEV. Check `ddev describe` and see DDEV installation docs regarding mkcert (https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/). 
 
-Check `ddev exec 'echo $DDEV_PRIMARY_URL'`, the output must be `https://test-vite.ddev.site` - not http://.
+Run `ddev exec 'echo $DDEV_PRIMARY_URL'` => the output must be `https://test-vite.ddev.site` - not http://.
