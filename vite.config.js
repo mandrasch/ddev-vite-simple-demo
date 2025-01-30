@@ -27,8 +27,7 @@ export default defineConfig({
     strictPort: true,
     // Defines the origin of the generated asset URLs during development
     origin: origin,
-
-    // The following line is require until the release of https://github.com/vitejs/vite/pull/19241
+    // Configure CORS for the dev server
     cors: { origin: process.env.DDEV_PRIMARY_URL },
   },
 
