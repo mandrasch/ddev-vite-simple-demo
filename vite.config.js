@@ -27,8 +27,8 @@ export default defineConfig({
     strictPort: true,
     // Defines the origin of the generated asset URLs during development
     origin: origin,
-    // Configure CORS for the dev server (security)
-    cors: { origin: process.env.DDEV_PRIMARY_URL },
+    // Configure CORS for the devserver (security)
+    cors: { origin: /https?:\/\/([A-Za-z0-9\-\.]+)?(localhost|\.site)(?::\d+)?$/ },
   },
 
 })
