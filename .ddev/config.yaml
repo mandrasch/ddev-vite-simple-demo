@@ -4,7 +4,7 @@ docroot: ""
 php_version: "8.1"
 webserver_type: nginx-fpm
 xdebug_enabled: false
-additional_hostnames: []
+additional_hostnames: [test-vite-second-page]
 additional_fqdns: []
 database:
     type: mariadb
