@@ -1,10 +1,7 @@
 import { defineConfig } from 'vite'
 import path from 'path'
 
-console.log(process.env.DDEV_PRIMARY_URL)
-
-console.log(
-  process.env.DDEV_HOSTNAME);
+console.log('Output of process.env.DDEV_PRIMARY_URL:', process.env.DDEV_PRIMARY_URL);
 
 // https://vitejs.dev/config/
 export default defineConfig({
