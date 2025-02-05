@@ -7,8 +7,8 @@
     <title>Hello Vite!</title>
 
     <!-- This is just an example for local development, no full integration: -->
-    <script type="module" src="<?php echo $_SERVER['DDEV_PRIMARY_URL']; ?>:5173/@vite/client"></script>
-    <script type="module" src="<?php echo $_SERVER['DDEV_PRIMARY_URL']; ?>:5173/src/main.js"></script>
+    <script type="module" src="<?php echo preg_replace('/:\d+$/', '', $_SERVER['DDEV_PRIMARY_URL']); ?>:5173/@vite/client"></script>
+    <script type="module" src="<?php echo preg_replace('/:\d+$/', '', $_SERVER['DDEV_PRIMARY_URL']); ?>:5173/src/main.js"></script>
     <!-- see https://vitejs.dev/guide/backend-integration.html -->
 
 </head>
