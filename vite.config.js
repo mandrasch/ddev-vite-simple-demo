@@ -21,14 +21,15 @@ export default defineConfig({
   // Adjust vites dev server for DDEV
   // https://vitejs.dev/config/server-options.html
   server: {
-    // respond to all network requests:
+    // Respond to all network requests
     host: '0.0.0.0',
     port: port,
     strictPort: true,
     // Defines the origin of the generated asset URLs during development
     origin: origin,
-    // Configure CORS for the devserver (security)
-    cors: { origin: /https?:\/\/([A-Za-z0-9\-\.]+)?(localhost|\.site)(?::\d+)?$/ },
+    // Configure CORS securely for the Vite dev server to allow requests
+    // from *.ddev.site domains, supports additional hostnames (via regex)
+    cors: { origin: /https?:\/\/([A-Za-z0-9\-\.]+)?(\.site)(?::\d+)?$/ },
   },
 
 })
