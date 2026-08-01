@@ -2,6 +2,8 @@
 
 Simple Vite demo for blog article https://ddev.com/blog/working-with-vite-in-ddev/
 
+Requires DDEV >= v1.24.5.
+
 ## Local setup
 
 ```bash
